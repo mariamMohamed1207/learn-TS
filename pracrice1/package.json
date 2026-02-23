@@ -1,17 +1,20 @@
 {
-	"name": "pracrice1",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"dev": "tsx src/utils.ts",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"type": "module",
-	"devDependencies": {
-		"tsx": "^4.21.0"
-	}
+  "name": "pracrice1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/utils.ts",
+    "start": "tsx src/cart.ts",
+    "try": "tsx src/rec.ts",
+    "app": "tsx src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  }
 }
